@@ -28,3 +28,12 @@ The main goal is to load the data, clean it, do some analysis, and visualize bas
 
 The metadata.csv file from the CORD-19 dataset is too large to upload here.
 Please download it separately and put it in the same directory as the Python file before running it.
+
+##  Part 3: Data Analysis and Visualization
+In this part, I analyzed the cleaned CORD-19 dataset to find trends in COVID-19 research papers.
+- Counted papers by publication year  
+- Identified top journals publishing COVID-19 research  
+- Found frequent words in paper titles  
+- Created visualizations (bar charts and a word cloud) using Matplotlib and WordCloud  
+
+The charts help show how research activity changed over time and which journals contributed the most.
