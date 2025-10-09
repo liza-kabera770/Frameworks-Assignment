@@ -37,3 +37,21 @@ In this part, I analyzed the cleaned CORD-19 dataset to find trends in COVID-19 
 - Created visualizations (bar charts and a word cloud) using Matplotlib and WordCloud  
 
 The charts help show how research activity changed over time and which journals contributed the most.
+## 🧩 Part 4: Streamlit Web App
+
+For this part, I built a simple Streamlit app to explore the cleaned CORD-19 dataset.  
+It lets users filter papers by publication year, see data samples, and view visualizations like bar charts and a word cloud.
+
+### 🧠 What the app does
+- Filters publications by selected year range  
+- Displays a preview of the dataset  
+- Shows a bar chart of papers published per year  
+- Generates a word cloud from paper titles  
+
+### ⚙ How to run the app
+1. Install Streamlit (if you don’t already have it):
+   ```bash
+   pip install streamlit
+2.  run app with :
+  streamlit run app.py
+3.Open the local link (http://localhost:8501) that appears in your terminal.
